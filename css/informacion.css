@@ -65,6 +65,10 @@
   margin-bottom: 20px;
 }
 
+.fb-comments {
+  background-color: aqua;
+}
+
 @media (min-width: 950px) {
   .contenedor-tarjetas {
     max-width: 1270px;
