@@ -1,0 +1,78 @@
+.galeriacontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloGaleria {
+  margin: 40px;
+  color: var(--secundary-color);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 10px;
+  border-bottom: 2px solid var(--text-color);
+  border-radius: 0px 0px 5px 5px;
+}
+.columnas {
+  width: 100%;
+}
+.itemImg {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.item {
+  border-top: 2px solid var(--navbar-shallow-color);
+  border-radius: 5px 5px 0px 0px;
+  width: 98%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 5px var(--navbar-shallow-color);
+}
+
+.infoimg {
+  color: var(--theme-color);
+  width: 100%;
+  font-size: 18px;
+  background-color: var(--secundary-color);
+  margin: 0px;
+  padding: 3px 0px;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+}
+@media (min-width: 950px) {
+  .galeriacontainer {
+    width: 100%;
+  }
+
+  .containercolumnas {
+    max-width: 1550px;
+    display: flex;
+  }
+  .columnas {
+    width: 25%;
+    padding: 0px 5px;
+  }
+  .item {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .itemImg {
+    width: 100%;
+  }
+  .infoimg {
+    padding: 10px 0px;
+    width: 100%;
+  }
+
+  .item:hover {
+    border: 3px solid var(--text-color);
+    border-radius: 10px;
+    transition: all 0.2s;
+  }
+}

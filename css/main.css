@@ -1,0 +1,48 @@
+:root {
+  --theme-color: #f9f9f9;
+  --primary-color: #2c3639;
+  --secundary-color: #a47e3b;
+  --text-color: #1c0a00;
+  --navbar-shallow-color: #d8d8d8;
+  --menu-mobile-background-color: #d6d2c4;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 70px;
+  padding-bottom: 50px;
+  position: relative;
+  min-height: 100vh;
+}
+footer {
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.vertical-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}

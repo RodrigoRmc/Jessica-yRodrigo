@@ -1,0 +1,92 @@
+.contHorarios {
+  display: flex;
+  flex-direction: column;
+}
+.titulo-detalle--img {
+  width: 100%;
+  margin-bottom: 80px;
+  box-shadow: 4px 4px 5px var(--text-color);
+}
+
+.contHorarios h2 {
+  font-size: 25px;
+  margin: 40px auto;
+  color: var(--secundary-color);
+  border-bottom: 1px solid var(--text-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.cronograma h2 {
+  color: var(--secundary-color);
+}
+
+.cronograma {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.horarios-a-b {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.horarios-a {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+.horarios-b {
+  width: 50%;
+  height: 50%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.actividad {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: var(--secundary-color);
+  font-weight: 300;
+}
+.hora {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 950px) {
+  .contHorarios {
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .titulo-detalles {
+  }
+  .titulo-detalle--img {
+    box-shadow: none;
+    border-radius: 5px 5px 0px 0px;
+    height: 20%;
+    object-fit: cover;
+  }
+  .horarios-a {
+    font-size: 16px;
+  }
+  .horarios-b {
+    font-size: 16px;
+  }
+  .actividad {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+}
