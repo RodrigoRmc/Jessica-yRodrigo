@@ -64,6 +64,9 @@
   margin: 0;
   padding: 0;
 }
+.fb-comments {
+  z-index: auto;
+}
 
 @media (min-width: 950px) {
   .contHorarios {
