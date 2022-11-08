@@ -19,10 +19,14 @@
   color: var(--secundary-color);
   font-weight: bold;
   font-size: 20px;
+  border-bottom: 2px solid var(--text-color);
+  padding: 5px 5px;
+  border-radius: 0px 0px 5px 5px;
 }
 .sugerencia {
   color: var(--text-color);
-  font-weight: 200px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 @media (min-width: 950px) {
