@@ -54,14 +54,14 @@
 }
 
 .imgInfo {
-  width: 100%;
+  width: 95%;
+  border-radius: 5px;
 }
 
 .img-detalles {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 30px;
 }
 
 .icono {
@@ -83,6 +83,7 @@
   margin: auto;
   margin-bottom: 10px;
   width: 100%;
+  padding-left: 20px;
 }
 
 .T {
@@ -152,6 +153,8 @@
 }
 
 @media (min-width: 950px) {
+  /* header */
+
   /* poortada */
   .portada-texto h2 {
     font-size: 30px;

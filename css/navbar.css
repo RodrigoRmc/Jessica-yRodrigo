@@ -52,6 +52,12 @@
 
 @media (max-width: 950px) {
   /*logo*/
+  .topheader {
+    background-color: var(--primary-color);
+  }
+  .tjr {
+    color: var(--theme-color);
+  }
 
   /*Menu*/
 
