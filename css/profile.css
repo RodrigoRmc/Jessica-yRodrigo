@@ -1,7 +1,11 @@
 /* portada */
+.informacion {
+   width: 100%;
+   background-color: aqua;
+}
 
 .portada {
-   margin-bottom: 100px;
+   margin: auto;
 }
 .img-portada {
    width: 100%;
