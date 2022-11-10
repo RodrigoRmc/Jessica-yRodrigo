@@ -5,6 +5,7 @@
 }
 .img-portada {
    width: 100%;
+   margin: auto;
 }
 .portada-invitacion {
    max-width: 1200px;
